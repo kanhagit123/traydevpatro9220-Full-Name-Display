@@ -1,0 +1,52 @@
+* { box-sizing: border-box; }
+body { font-family: Georgia, 'Times New Roman', serif; margin: 0; background: #fff; color: #111; }
+
+.container {
+  max-width: 800px;
+  margin: 40px;
+  padding: 10px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+
+.form {
+  display: block;
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.input {
+  margin-left: 6px;
+  padding: 6px 8px;
+  font-size: 16px;
+  width: 320px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 6px 10px;
+  font-size: 16px;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.result {
+  margin-top: 18px;
+  font-size: 20px;
+}
+
+.result strong {
+  font-weight: 700;
+}
